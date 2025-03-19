@@ -1,4 +1,7 @@
+# Hospital Scheduler
 
+## Project Structure
+```
 /hospital-scheduler
 ├── /public
 │   └── index.html
@@ -50,32 +53,33 @@
 ├── .gitignore
 ├── package.json
 ├── README.md
+```
 
+## Core Features
+### **Patient Scheduling System**
+- Patients can select available time slots.
+- Notify the hospital staff about the patient’s estimated arrival.
 
-Core Features
-Patient Scheduling System
+### **Visit History Management**
+- Track previous appointments and treatments.
+- Display comprehensive patient visit records.
 
-Patients can select available time slots.
-Notify the hospital staff about the patient’s estimated arrival.
-Visit History Management
+### **Feedback System**
+- Patients can leave feedback for doctors.
+- Provide a rating system or comment box for detailed feedback.
 
-Track previous appointments and treatments.
-Display comprehensive patient visit records.
-Feedback System
+### **Physical Therapy Categorization**
+- Patients can select the category of physical therapy they need (e.g., orthopedic, neurological, sports-related, etc.).
+- Doctors can filter their schedule based on treatment types.
 
-Patients can leave feedback for doctors.
-Provide a rating system or comment box for detailed feedback.
-Physical Therapy Categorization
+### **Doctor’s Dashboard**
+- View upcoming appointments categorized by therapy type.
+- Access patient visit history and feedback for improved care.
 
-Patients can select the category of physical therapy they need (e.g., orthopedic, neurological, sports-related, etc.).
-Doctors can filter their schedule based on treatment types.
-Doctor’s Dashboard
+## Tech Stack Recommendations
+- **Frontend:** React (with Tailwind CSS or Material UI for UI design)
+- **Backend:** Node.js with Express (for handling appointments and data)
+- **Database:** MongoDB or PostgreSQL (for structured visit history and feedback)
+- **Authentication:** Firebase or Auth0 (for secure login)
+- **Notifications:** Twilio or OneSignal (for patient reminders)
 
-View upcoming appointments categorized by therapy type.
-Access patient visit history and feedback for improved care.
-Tech Stack Recommendations
-Frontend: React (with Tailwind CSS or Material UI for UI design)
-Backend: Node.js with Express (for handling appointments and data)
-Database: MongoDB or PostgreSQL (for structured visit history and feedback)
-Authentication: Firebase or Auth0 (for secure login)
-Notifications: Twilio or OneSignal (for patient reminders)
